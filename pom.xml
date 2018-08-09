@@ -518,7 +518,7 @@
             <dependencies>
                 <dependency>
                     <groupId>org.wildfly.swarm</groupId>
-                    <artifactId>micropofile</artifactId>
+                    <artifactId>microprofile</artifactId>
                     <exclusions>
                         <exclusion>
                             <groupId>org.wildfly.swarm</groupId>
