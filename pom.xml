@@ -517,7 +517,6 @@
             <id>kubernetes</id>
             <dependencies>
                 <dependency>
-                    <groupId>io.thorntail</groupId>
                     <groupId>org.wildfly.swarm</groupId>
                     <exclusions>
                         <exclusion>
