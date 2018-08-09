@@ -1,4 +1,4 @@
-package io.github.carlosthe19916.pe.models.graph.entity;
+package io.github.carlosthe19916.core.models.graph;
 
 import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;
