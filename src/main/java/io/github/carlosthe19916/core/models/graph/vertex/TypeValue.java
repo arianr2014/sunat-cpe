@@ -1,4 +1,4 @@
-package io.github.carlosthe19916.core.models.graph;
+package io.github.carlosthe19916.core.models.graph.vertex;
 
 import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;

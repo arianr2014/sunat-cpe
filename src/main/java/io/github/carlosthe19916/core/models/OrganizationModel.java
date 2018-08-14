@@ -25,4 +25,36 @@ public interface OrganizationModel extends Model {
     void setSmtpConfig(Map<String, String> smtpConfig);
 
     TimeZone getTimeZone();
+    void setTimeZone(TimeZone timeZone);
+
+    String getAssignedId();
+    void setAssignedId(String assignedId);
+
+    String getAdditionalAssignedId();
+    void setAdditionalAssignedId(String additionalAssignedId);
+
+    String getPartyName();
+    void setPartyName(String partyName);
+
+    String getPartyLegalRegistrationName();
+    void setPartyLegalRegistrationName(String partyLegalRegistrationName);
+
+    String getPostalAddressID();
+    void setPostalAddressID(String postalAddressID);
+
+    String getPostalAddressStreetName();
+    void setPostalAddressStreetName(String postalAddressStreetName);
+
+    String getPostalAddressCitySubDivisionName();
+    void setPostalAddressCitySubDivisionName(String postalAddressCitySubDivisionName);
+
+    String getPostalAddressCityName();
+    void setPostalAddressCityName(String postalAddressCityName);
+
+    String getPostalAddressCountrySubEntity();
+    void setPostalAddressCountrySubEntity(String postalAddressCountrySubEntity);
+
+    String getPostalAddressCountryIdentificationCode();
+    void setPostalAddressCountryIdentificationCode(String postalAddressCountryIdentificationCode);
+
 }

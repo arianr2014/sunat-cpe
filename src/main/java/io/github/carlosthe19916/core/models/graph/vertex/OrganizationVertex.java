@@ -1,4 +1,4 @@
-package io.github.carlosthe19916.core.models.graph;
+package io.github.carlosthe19916.core.models.graph.vertex;
 
 import com.syncleus.ferma.annotations.Adjacency;
 import com.syncleus.ferma.annotations.Property;

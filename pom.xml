@@ -297,6 +297,11 @@
             <artifactId>ferma</artifactId>
             <version>3.2.1</version>
         </dependency>
+        <dependency>
+            <groupId>org.janusgraph</groupId>
+            <artifactId>janusgraph-core</artifactId>
+            <version>0.3.0</version>
+        </dependency>
 
         <!--Test-->
         <dependency>
