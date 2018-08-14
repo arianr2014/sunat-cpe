@@ -45,14 +45,14 @@ public interface OrganizationModel extends Model {
     String getPostalAddressStreetName();
     void setPostalAddressStreetName(String postalAddressStreetName);
 
-    String getPostalAddressCitySubDivisionName();
-    void setPostalAddressCitySubDivisionName(String postalAddressCitySubDivisionName);
+    String getPostalAddressCitySubdivisionName();
+    void setPostalAddressCitySubdivisionName(String postalAddressCitySubDivisionName);
 
     String getPostalAddressCityName();
     void setPostalAddressCityName(String postalAddressCityName);
 
-    String getPostalAddressCountrySubEntity();
-    void setPostalAddressCountrySubEntity(String postalAddressCountrySubEntity);
+    String getPostalAddressCountrySubentity();
+    void setPostalAddressCountrySubentity(String postalAddressCountrySubEntity);
 
     String getPostalAddressCountryIdentificationCode();
     void setPostalAddressCountryIdentificationCode(String postalAddressCountryIdentificationCode);

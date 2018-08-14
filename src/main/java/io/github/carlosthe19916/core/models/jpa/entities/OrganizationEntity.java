@@ -61,6 +61,36 @@ public class OrganizationEntity implements Serializable {
     @CollectionTable(name = "organization_smtp_config", joinColumns = {@JoinColumn(name = "organization_id")})
     private Map<String, String> smtpConfig = new HashMap<>();
 
+    @Column(name = "assigned_id")
+    private String assignedId;
+
+    @Column(name = "additional_assigned_id")
+    private String additionalAssignedId;
+
+    @Column(name = "party_name")
+    private String partyName;
+
+    @Column(name = "party_legal_registration_name")
+    private String partyLegalRegistrationName;
+
+    @Column(name = "postal_address_id")
+    private String postalAddressID;
+
+    @Column(name = "postal_address_street_name")
+    private String postalAddressStreetName;
+
+    @Column(name = "postal_address_city_subdivison_name")
+    private String postalAddressCitySubdivisionName;
+
+    @Column(name = "postal_address_city_name")
+    private String postalAddressCityName;
+
+    @Column(name = "postal_address_country_subentity")
+    private String postalAddressCountrySubentity;
+
+    @Column(name = "postal_address_country_identification_code")
+    private String postalAddressCountryIdentificationCode;
+
     @Version
     @Column(name = "version")
     private int version;
@@ -160,5 +190,85 @@ public class OrganizationEntity implements Serializable {
 
     public void setType(OrganizationType type) {
         this.type = type;
+    }
+
+    public String getAssignedId() {
+        return assignedId;
+    }
+
+    public void setAssignedId(String assignedId) {
+        this.assignedId = assignedId;
+    }
+
+    public String getAdditionalAssignedId() {
+        return additionalAssignedId;
+    }
+
+    public void setAdditionalAssignedId(String additionalAssignedId) {
+        this.additionalAssignedId = additionalAssignedId;
+    }
+
+    public String getPartyName() {
+        return partyName;
+    }
+
+    public void setPartyName(String partyName) {
+        this.partyName = partyName;
+    }
+
+    public String getPartyLegalRegistrationName() {
+        return partyLegalRegistrationName;
+    }
+
+    public void setPartyLegalRegistrationName(String partyLegalRegistrationName) {
+        this.partyLegalRegistrationName = partyLegalRegistrationName;
+    }
+
+    public String getPostalAddressID() {
+        return postalAddressID;
+    }
+
+    public void setPostalAddressID(String postalAddressID) {
+        this.postalAddressID = postalAddressID;
+    }
+
+    public String getPostalAddressStreetName() {
+        return postalAddressStreetName;
+    }
+
+    public void setPostalAddressStreetName(String postalAddressStreetName) {
+        this.postalAddressStreetName = postalAddressStreetName;
+    }
+
+    public String getPostalAddressCitySubdivisionName() {
+        return postalAddressCitySubdivisionName;
+    }
+
+    public void setPostalAddressCitySubdivisionName(String postalAddressCitySubdivisionName) {
+        this.postalAddressCitySubdivisionName = postalAddressCitySubdivisionName;
+    }
+
+    public String getPostalAddressCityName() {
+        return postalAddressCityName;
+    }
+
+    public void setPostalAddressCityName(String postalAddressCityName) {
+        this.postalAddressCityName = postalAddressCityName;
+    }
+
+    public String getPostalAddressCountrySubentity() {
+        return postalAddressCountrySubentity;
+    }
+
+    public void setPostalAddressCountrySubentity(String postalAddressCountrySubentity) {
+        this.postalAddressCountrySubentity = postalAddressCountrySubentity;
+    }
+
+    public String getPostalAddressCountryIdentificationCode() {
+        return postalAddressCountryIdentificationCode;
+    }
+
+    public void setPostalAddressCountryIdentificationCode(String postalAddressCountryIdentificationCode) {
+        this.postalAddressCountryIdentificationCode = postalAddressCountryIdentificationCode;
     }
 }

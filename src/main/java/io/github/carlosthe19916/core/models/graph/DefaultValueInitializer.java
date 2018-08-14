@@ -12,50 +12,45 @@ import java.util.HashMap;
 import java.util.LinkedList;
 import java.util.Map;
 
-/**
- * A tinkerpop frame initializer that makes it possible to specify default values for the elements
- */
-public class DefaultValueInitializer implements ClassInitializer
-{
+public class DefaultValueInitializer implements ClassInitializer {
+
     private Map<Class<?>, LinkedList<PropertyDefaultValue>> cachedValues = new HashMap<>();
 
     @Override
-    public Class getInitializationType()
-    {
+    public Class getInitializationType() {
         return SunatFrame.class;
     }
 
     @Override
     public void initalize(Object frame) {
         Class<?> kind = frame.getClass();
-        ElementFrame elementFrame = (ElementFrame)frame;
+        ElementFrame elementFrame = (ElementFrame) frame;
 
-        if (!cachedValues.containsKey(kind))
-        {
+        if (!cachedValues.containsKey(kind)) {
             cacheFrameInterface(kind, kind);
         }
         setupDefaults(elementFrame.getElement(), cachedValues.get(kind));
     }
 
     private void cacheFrameInterface(Class<?> originalKind, Class<?> kind) {
-        if (kind == null)
+        if (kind == null) {
             return;
+        }
+
         cacheFrameInterface(originalKind, kind.getSuperclass());
-        for (Class<?> iface : kind.getInterfaces())
+        for (Class<?> iface : kind.getInterfaces()) {
             cacheFrameInterface(originalKind, iface);
+        }
 
 
         LinkedList<PropertyDefaultValue> values = cachedValues.get(originalKind);
         if (values == null)
             values = new LinkedList<>();
 
-        for (Method m : kind.getMethods())
-        {
+        for (Method m : kind.getMethods()) {
             Annotation[] annotations = m.getAnnotations();
-            for (Annotation annotation : annotations)
-            {
-                if (annotation instanceof FrameBooleanDefaultValue)
-                {
+            for (Annotation annotation : annotations) {
+                if (annotation instanceof FrameBooleanDefaultValue) {
                     PropertyDefaultValue pDefault = new PropertyDefaultValue();
                     pDefault.value = ((FrameBooleanDefaultValue) annotation).value();
                     pDefault.key = m.getAnnotation(Property.class).value();
@@ -67,18 +62,15 @@ public class DefaultValueInitializer implements ClassInitializer
         cachedValues.put(originalKind, values);
     }
 
-    private void setupDefaults(Element element, LinkedList<PropertyDefaultValue> values)
-    {
-        for (PropertyDefaultValue pValue : values)
-        {
+    private void setupDefaults(Element element, LinkedList<PropertyDefaultValue> values) {
+        for (PropertyDefaultValue pValue : values) {
             element.property(pValue.key, pValue.value);
         }
     }
 
-    private class PropertyDefaultValue
-    {
+    private class PropertyDefaultValue {
         private String key;
         private Object value;
-
     }
+
 }

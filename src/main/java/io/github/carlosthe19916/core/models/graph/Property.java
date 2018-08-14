@@ -8,8 +8,6 @@ import java.lang.annotation.Target;
 /**
  * Exists until this is fixed and released:
  * https://github.com/Syncleus/Ferma/issues/44
- *
- * @author <a href="mailto:jesse.sightler@gmail.com">Jesse Sightler</a>
  */
 @Retention(RetentionPolicy.RUNTIME)
 @Target(ElementType.METHOD)

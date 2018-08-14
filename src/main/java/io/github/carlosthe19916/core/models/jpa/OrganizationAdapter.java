@@ -104,6 +104,111 @@ public class OrganizationAdapter implements OrganizationModel, JpaModel<Organiza
 
     @Override
     public TimeZone getTimeZone() {
-        return TimeZone.getTimeZone(organization.getTimeZone());
+        return organization.getTimeZone() != null ? TimeZone.getTimeZone(organization.getTimeZone()) : null;
+    }
+
+    @Override
+    public void setTimeZone(TimeZone timeZone) {
+        organization.setTimeZone(timeZone.getID());
+    }
+
+    @Override
+    public String getAssignedId() {
+        return organization.getAssignedId();
+    }
+
+    @Override
+    public void setAssignedId(String assignedId) {
+        organization.setAssignedId(assignedId);
+    }
+
+    @Override
+    public String getAdditionalAssignedId() {
+        return organization.getAdditionalAssignedId();
+    }
+
+    @Override
+    public void setAdditionalAssignedId(String additionalAssignedId) {
+        organization.setAdditionalAssignedId(additionalAssignedId);
+    }
+
+    @Override
+    public String getPartyName() {
+        return organization.getPartyName();
+    }
+
+    @Override
+    public void setPartyName(String partyName) {
+        organization.setPartyName(partyName);
+    }
+
+    @Override
+    public String getPartyLegalRegistrationName() {
+        return organization.getPartyLegalRegistrationName();
+    }
+
+    @Override
+    public void setPartyLegalRegistrationName(String partyLegalRegistrationName) {
+        organization.setPartyLegalRegistrationName(partyLegalRegistrationName);
+    }
+
+    @Override
+    public String getPostalAddressID() {
+        return organization.getPostalAddressID();
+    }
+
+    @Override
+    public void setPostalAddressID(String postalAddressID) {
+        organization.setPostalAddressID(postalAddressID);
+    }
+
+    @Override
+    public String getPostalAddressStreetName() {
+        return organization.getPostalAddressStreetName();
+    }
+
+    @Override
+    public void setPostalAddressStreetName(String postalAddressStreetName) {
+        organization.setPostalAddressStreetName(postalAddressStreetName);
+    }
+
+    @Override
+    public String getPostalAddressCitySubdivisionName() {
+        return organization.getPostalAddressCitySubdivisionName();
+    }
+
+    @Override
+    public void setPostalAddressCitySubdivisionName(String postalAddressCitySubdivisionName) {
+        organization.setPostalAddressCitySubdivisionName(postalAddressCitySubdivisionName);
+    }
+
+    @Override
+    public String getPostalAddressCityName() {
+        return organization.getPostalAddressCityName();
+    }
+
+    @Override
+    public void setPostalAddressCityName(String postalAddressCityName) {
+        organization.setPostalAddressCityName(postalAddressCityName);
+    }
+
+    @Override
+    public String getPostalAddressCountrySubentity() {
+        return organization.getPostalAddressCountrySubentity();
+    }
+
+    @Override
+    public void setPostalAddressCountrySubentity(String postalAddressCountrySubEntity) {
+        organization.setPostalAddressCountrySubentity(postalAddressCountrySubEntity);
+    }
+
+    @Override
+    public String getPostalAddressCountryIdentificationCode() {
+        return organization.getPostalAddressCountryIdentificationCode();
+    }
+
+    @Override
+    public void setPostalAddressCountryIdentificationCode(String postalAddressCountryIdentificationCode) {
+        organization.setPostalAddressCountryIdentificationCode(postalAddressCountryIdentificationCode);
     }
 }
