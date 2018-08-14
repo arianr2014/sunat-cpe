@@ -8,7 +8,7 @@ import java.util.function.Function;
 
 public class DocumentFieldMapper implements Function<String, String> {
 
-    public static final Map<String, String> mapper = createMap();
+    private static final Map<String, String> mapper = createMap();
 
     private String prefix;
 

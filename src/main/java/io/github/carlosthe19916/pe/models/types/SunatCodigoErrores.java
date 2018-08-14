@@ -5,7 +5,7 @@ import java.util.Map;
 
 public class SunatCodigoErrores {
 
-    public static Map<String, String> codigoErrores = new HashMap<>();
+    public static final Map<String, String> codigoErrores = new HashMap<>();
 
     static {
         codigoErrores.put("100", "El sistema no puede responder su solicitud. Intente nuevamente o comuníquese con su Administrador");

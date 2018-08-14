@@ -438,7 +438,7 @@ public class ModelToType {
             Element element = JaxbUtils.marshalToElement(ObjectFactory.class, jaxbElement);
             extensionContentType1.setAny(element);
         } catch (JAXBException e) {
-            e.printStackTrace();
+            throw new IllegalStateException(e);
         }
 
         // Firma Digital

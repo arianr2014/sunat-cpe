@@ -26,7 +26,7 @@ public class SunatTopicMDB implements MessageListener {
         try {
             System.out.println("received: " + ((TextMessage) message).getText());
         } catch (JMSException e) {
-            e.printStackTrace();
+            throw new IllegalStateException(e);
         }
     }
 
