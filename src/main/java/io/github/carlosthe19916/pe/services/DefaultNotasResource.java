@@ -70,6 +70,7 @@ public class DefaultNotasResource implements NotasResource {
                 nota = future.get();
             } catch (InterruptedException | ExecutionException e) {
                 logger.error(e);
+                Thread.currentThread().interrupt();
             }
         }
 
@@ -100,6 +101,7 @@ public class DefaultNotasResource implements NotasResource {
                 nota = future.get();
             } catch (InterruptedException | ExecutionException e) {
                 logger.error(e);
+                Thread.currentThread().interrupt();
             }
         }
 

@@ -50,7 +50,9 @@ public class JpaComponentProvider implements ComponentProvider {
             if (componentFactory == null && System.getProperty(COMPONENT_PROVIDER_EXISTS_DISABLED) == null) {
                 throw new IllegalArgumentException("Invalid component type");
             }
-            componentFactory.validateConfiguration(organization, model);
+            if (componentFactory != null) {
+                componentFactory.validateConfiguration(organization, model);
+            }
         } catch (Exception e) {
             if (System.getProperty(COMPONENT_PROVIDER_EXISTS_DISABLED) == null) {
                 throw e;

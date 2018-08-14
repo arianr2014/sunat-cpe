@@ -69,6 +69,7 @@ public class DefaultInvoicesResource implements InvoicesResource {
                 invoice = future.get();
             } catch (InterruptedException | ExecutionException e) {
                 logger.error(e);
+                Thread.currentThread().interrupt();
             }
         }
 
@@ -99,6 +100,7 @@ public class DefaultInvoicesResource implements InvoicesResource {
                 invoice = future.get();
             } catch (InterruptedException | ExecutionException e) {
                 logger.error(e);
+                Thread.currentThread().interrupt();
             }
         }
 

@@ -222,13 +222,16 @@ public class SunatManager {
         UncompressFileProvider provider = factory.getProvider("zip").orElseThrow(() -> new Exception("No provider for zip file"));
         Map<String, byte[]> entries = provider.uncompress(sunatResponse);
 
-        Document document;
+        Document document = null;
         for (Map.Entry<String, byte[]> entry : entries.entrySet()) {
             byte[] bytes = entry.getValue();
             document = JaxbUtils.toDocument(bytes);
-            break;
         }
-        throw new Exception("No se encontró un cdr que leer");
+        if (document != null) {
+            return document;
+        } else {
+            throw new Exception("No se encontró un cdr que leer");
+        }
     }
 
 }

@@ -69,6 +69,7 @@ public class DefaultBajasResource implements BajasResource {
                 baja = future.get();
             } catch (InterruptedException | ExecutionException e) {
                 logger.error(e);
+                Thread.currentThread().interrupt();
             }
         }
 
