@@ -1,15 +1,14 @@
 package io.github.carlosthe19916.core.files.filesystem;
 
-import org.apache.camel.CamelContext;
-import org.apache.camel.cdi.ContextName;
-import org.jboss.logging.Logger;
 import io.github.carlosthe19916.core.files.FileException;
 import io.github.carlosthe19916.core.files.FileModel;
 import io.github.carlosthe19916.core.files.FileProvider;
 import io.github.carlosthe19916.core.files.FileProviderVendor;
+import org.apache.camel.CamelContext;
+import org.apache.camel.cdi.ContextName;
+import org.jboss.logging.Logger;
 import org.wildfly.swarm.spi.runtime.annotations.ConfigurationValue;
 
-import javax.annotation.PostConstruct;
 import javax.enterprise.context.ApplicationScoped;
 import javax.inject.Inject;
 import java.io.IOException;

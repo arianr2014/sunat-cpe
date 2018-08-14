@@ -3,9 +3,6 @@ package io.github.carlosthe19916.core.bootstrap;
 import io.github.carlosthe19916.core.models.*;
 import io.github.carlosthe19916.core.models.utils.DefaultKeyProviders;
 import org.jboss.logging.Logger;
-import io.github.carlosthe19916.core.models.*;
-import io.github.carlosthe19916.core.models.utils.DefaultKeyProviders;
-import io.github.carlosthe19916.core.models.PermissionType;
 
 import javax.annotation.PostConstruct;
 import javax.ejb.Singleton;

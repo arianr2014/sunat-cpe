@@ -1,6 +1,5 @@
 package io.github.carlosthe19916.pe.models.jpa;
 
-import io.github.carlosthe19916.pe.models.DatosVentaDetalleBean;
 import io.github.carlosthe19916.core.models.utils.ModelUtils;
 import io.github.carlosthe19916.pe.models.*;
 import io.github.carlosthe19916.pe.models.jpa.entities.DatosVentaDetalleEntity;

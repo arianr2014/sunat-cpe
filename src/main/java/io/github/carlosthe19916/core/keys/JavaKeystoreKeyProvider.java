@@ -1,11 +1,10 @@
 package io.github.carlosthe19916.core.keys;
 
 import io.github.carlosthe19916.core.keys.component.ComponentModel;
+import io.github.carlosthe19916.core.models.OrganizationModel;
 import org.jboss.logging.Logger;
 import org.keycloak.common.util.CertificateUtils;
 import org.keycloak.common.util.KeyUtils;
-import io.github.carlosthe19916.core.keys.component.ComponentModel;
-import io.github.carlosthe19916.core.models.OrganizationModel;
 
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;

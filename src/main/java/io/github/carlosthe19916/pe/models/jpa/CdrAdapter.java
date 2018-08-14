@@ -1,7 +1,5 @@
 package io.github.carlosthe19916.pe.models.jpa;
 
-import io.github.carlosthe19916.pe.models.CdrModel;
-import io.github.carlosthe19916.pe.models.jpa.entities.CdrEntity;
 import io.github.carlosthe19916.core.models.jpa.JpaModel;
 import io.github.carlosthe19916.pe.models.CdrModel;
 import io.github.carlosthe19916.pe.models.jpa.entities.CdrEntity;

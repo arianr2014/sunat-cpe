@@ -3,9 +3,6 @@ package io.github.carlosthe19916.pe.models.utils;
 import io.github.carlosthe19916.pe.models.*;
 import io.github.carlosthe19916.pe.models.types.TipoDocumentoEntidad;
 import io.github.carlosthe19916.pe.representations.idm.*;
-import io.github.carlosthe19916.pe.models.*;
-import io.github.carlosthe19916.pe.models.types.TipoDocumentoEntidad;
-import io.github.carlosthe19916.pe.representations.idm.*;
 
 import java.util.stream.Collectors;
 

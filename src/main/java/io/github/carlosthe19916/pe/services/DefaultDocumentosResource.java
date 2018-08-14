@@ -1,7 +1,6 @@
 package io.github.carlosthe19916.pe.services;
 
 import io.github.carlosthe19916.pe.DocumentosResource;
-import io.github.carlosthe19916.pe.DocumentosResource;
 import io.github.carlosthe19916.pe.representations.idm.ResumenDocumentosObservadosRepresentation;
 
 import javax.enterprise.context.ApplicationScoped;

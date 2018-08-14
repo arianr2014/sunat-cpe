@@ -4,10 +4,6 @@ import io.github.carlosthe19916.core.models.ModelType;
 import io.github.carlosthe19916.core.models.OrganizationModel;
 import io.github.carlosthe19916.core.models.OrganizationType;
 import io.github.carlosthe19916.core.models.jpa.entities.OrganizationEntity;
-import io.github.carlosthe19916.core.models.ModelType;
-import io.github.carlosthe19916.core.models.OrganizationModel;
-import io.github.carlosthe19916.core.models.OrganizationType;
-import io.github.carlosthe19916.core.models.jpa.entities.OrganizationEntity;
 
 import javax.persistence.EntityManager;
 import java.util.Collections;

@@ -2,13 +2,7 @@ package io.github.carlosthe19916.core.models.jpa;
 
 import io.github.carlosthe19916.core.models.*;
 import io.github.carlosthe19916.core.models.jpa.entities.RoleEntity;
-import io.github.carlosthe19916.core.models.ModelCreationEvent;
-import io.github.carlosthe19916.core.models.ModelRemoveEvent;
-import io.github.carlosthe19916.core.models.RoleModel;
-import io.github.carlosthe19916.core.models.RoleProvider;
-import io.github.carlosthe19916.core.models.jpa.entities.RoleEntity;
 import io.github.carlosthe19916.core.models.utils.ModelUtils;
-import io.github.carlosthe19916.core.models.PermissionType;
 
 import javax.enterprise.context.ApplicationScoped;
 import javax.enterprise.event.Event;

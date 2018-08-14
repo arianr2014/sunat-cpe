@@ -1,8 +1,6 @@
 package io.github.carlosthe19916.core;
 
 import io.github.carlosthe19916.core.representations.idm.DocumentQueryRepresentation;
-import io.github.carlosthe19916.core.representations.idm.SearchResultRepresentation;
-import io.github.carlosthe19916.core.representations.idm.DocumentQueryRepresentation;
 import io.github.carlosthe19916.core.representations.idm.DocumentRepresentation;
 import io.github.carlosthe19916.core.representations.idm.SearchResultRepresentation;
 

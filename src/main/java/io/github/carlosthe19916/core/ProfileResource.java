@@ -1,7 +1,6 @@
 package io.github.carlosthe19916.core;
 
 import io.github.carlosthe19916.core.representations.idm.UserRepresentation;
-import io.github.carlosthe19916.core.representations.idm.UserRepresentation;
 
 import javax.ws.rs.Consumes;
 import javax.ws.rs.GET;

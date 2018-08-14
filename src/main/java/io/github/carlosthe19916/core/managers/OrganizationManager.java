@@ -5,11 +5,6 @@ import io.github.carlosthe19916.core.models.*;
 import io.github.carlosthe19916.core.models.utils.DefaultKeyProviders;
 import io.github.carlosthe19916.core.models.utils.RepresentationToModel;
 import io.github.carlosthe19916.core.representations.idm.OrganizationRepresentation;
-import io.github.carlosthe19916.core.keys.KeyProvider;
-import io.github.carlosthe19916.core.models.*;
-import io.github.carlosthe19916.core.models.utils.DefaultKeyProviders;
-import io.github.carlosthe19916.core.models.utils.RepresentationToModel;
-import io.github.carlosthe19916.core.representations.idm.OrganizationRepresentation;
 
 import javax.enterprise.context.ApplicationScoped;
 import javax.inject.Inject;

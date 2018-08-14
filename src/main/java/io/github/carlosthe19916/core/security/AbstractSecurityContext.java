@@ -3,9 +3,6 @@ package io.github.carlosthe19916.core.security;
 import io.github.carlosthe19916.core.models.PermissionType;
 import io.github.carlosthe19916.core.models.RoleMembershipModel;
 import io.github.carlosthe19916.core.models.RoleMembershipProvider;
-import io.github.carlosthe19916.core.models.PermissionType;
-import io.github.carlosthe19916.core.models.RoleMembershipModel;
-import io.github.carlosthe19916.core.models.RoleMembershipProvider;
 
 import javax.inject.Inject;
 import javax.servlet.http.HttpServletRequest;

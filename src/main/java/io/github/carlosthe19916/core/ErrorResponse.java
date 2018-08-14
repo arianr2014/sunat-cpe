@@ -1,7 +1,6 @@
 package io.github.carlosthe19916.core;
 
 import io.github.carlosthe19916.core.representations.idm.ErrorRepresentation;
-import io.github.carlosthe19916.core.representations.idm.ErrorRepresentation;
 
 import javax.ws.rs.core.MediaType;
 import javax.ws.rs.core.Response;

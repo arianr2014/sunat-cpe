@@ -1,7 +1,6 @@
 package io.github.carlosthe19916.pe.representations.idm;
 
 import javax.validation.constraints.NotNull;
-import javax.validation.constraints.Size;
 import java.util.Date;
 
 public class BajaRepresentation {

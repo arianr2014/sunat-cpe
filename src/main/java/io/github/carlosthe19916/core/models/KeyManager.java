@@ -1,7 +1,6 @@
 package io.github.carlosthe19916.core.models;
 
 import io.github.carlosthe19916.core.keys.RsaKeyMetadata;
-import io.github.carlosthe19916.core.keys.RsaKeyMetadata;
 
 import java.security.PrivateKey;
 import java.security.PublicKey;

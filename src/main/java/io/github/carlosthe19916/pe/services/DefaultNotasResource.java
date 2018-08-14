@@ -1,10 +1,5 @@
 package io.github.carlosthe19916.pe.services;
 
-import io.github.carlosthe19916.pe.NotasResource;
-import io.github.carlosthe19916.pe.models.NotaModel;
-import io.github.carlosthe19916.pe.models.NotaProvider;
-import io.github.carlosthe19916.pe.representations.idm.NotaRepresentation;
-import org.jboss.logging.Logger;
 import io.github.carlosthe19916.core.models.OrganizationModel;
 import io.github.carlosthe19916.core.models.OrganizationProvider;
 import io.github.carlosthe19916.core.models.PermissionType;
@@ -15,6 +10,7 @@ import io.github.carlosthe19916.pe.models.NotaModel;
 import io.github.carlosthe19916.pe.models.NotaProvider;
 import io.github.carlosthe19916.pe.models.utils.ModelToRepresentation;
 import io.github.carlosthe19916.pe.representations.idm.NotaRepresentation;
+import org.jboss.logging.Logger;
 
 import javax.enterprise.context.ApplicationScoped;
 import javax.inject.Inject;

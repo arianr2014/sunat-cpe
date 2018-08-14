@@ -1,7 +1,6 @@
 package io.github.carlosthe19916.core;
 
 import io.github.carlosthe19916.core.representations.idm.UserRepresentation;
-import io.github.carlosthe19916.core.representations.idm.UserRepresentation;
 
 import javax.ws.rs.*;
 import javax.ws.rs.core.MediaType;

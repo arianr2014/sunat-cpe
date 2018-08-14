@@ -1,7 +1,6 @@
 package io.github.carlosthe19916.pe;
 
 import io.github.carlosthe19916.pe.representations.idm.BajaRepresentation;
-import io.github.carlosthe19916.pe.representations.idm.InvoiceRepresentation;
 
 import javax.validation.Valid;
 import javax.ws.rs.*;

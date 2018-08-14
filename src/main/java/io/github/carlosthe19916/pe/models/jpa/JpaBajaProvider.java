@@ -1,13 +1,11 @@
 package io.github.carlosthe19916.pe.models.jpa;
 
+import io.github.carlosthe19916.core.models.OrganizationModel;
+import io.github.carlosthe19916.core.models.utils.ModelUtils;
 import io.github.carlosthe19916.pe.models.BajaModel;
 import io.github.carlosthe19916.pe.models.BajaProvider;
 import io.github.carlosthe19916.pe.models.EstadoComprobantePago;
 import io.github.carlosthe19916.pe.models.InvoiceModel;
-import io.github.carlosthe19916.pe.models.jpa.entities.EstadoSunatEntity;
-import io.github.carlosthe19916.core.models.OrganizationModel;
-import io.github.carlosthe19916.core.models.utils.ModelUtils;
-import io.github.carlosthe19916.pe.models.*;
 import io.github.carlosthe19916.pe.models.jpa.entities.BajaEntity;
 import io.github.carlosthe19916.pe.models.jpa.entities.EstadoSunatEntity;
 import io.github.carlosthe19916.pe.models.types.TipoBaja;

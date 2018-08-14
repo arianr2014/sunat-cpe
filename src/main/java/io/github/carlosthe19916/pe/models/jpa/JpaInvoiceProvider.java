@@ -3,14 +3,13 @@ package io.github.carlosthe19916.pe.models.jpa;
 import io.github.carlosthe19916.core.models.OrganizationModel;
 import io.github.carlosthe19916.core.models.jpa.OrganizationAdapter;
 import io.github.carlosthe19916.core.models.utils.ModelUtils;
-import io.github.carlosthe19916.pe.models.Labels;
 import io.github.carlosthe19916.pe.models.EstadoComprobantePago;
 import io.github.carlosthe19916.pe.models.InvoiceModel;
 import io.github.carlosthe19916.pe.models.InvoiceProvider;
 import io.github.carlosthe19916.pe.models.jpa.entities.CdrEntity;
 import io.github.carlosthe19916.pe.models.jpa.entities.DatosVentaEntity;
-import io.github.carlosthe19916.pe.models.jpa.entities.InvoiceEntity;
 import io.github.carlosthe19916.pe.models.jpa.entities.EstadoSunatEntity;
+import io.github.carlosthe19916.pe.models.jpa.entities.InvoiceEntity;
 import io.github.carlosthe19916.pe.models.types.TipoInvoice;
 import io.github.carlosthe19916.pe.models.utils.SunatUtils;
 import org.wildfly.swarm.spi.runtime.annotations.ConfigurationValue;
@@ -19,7 +18,10 @@ import javax.enterprise.context.ApplicationScoped;
 import javax.inject.Inject;
 import javax.persistence.*;
 import javax.transaction.Transactional;
-import java.util.*;
+import java.util.AbstractMap;
+import java.util.Calendar;
+import java.util.List;
+import java.util.Optional;
 import java.util.stream.Collectors;
 
 @Transactional

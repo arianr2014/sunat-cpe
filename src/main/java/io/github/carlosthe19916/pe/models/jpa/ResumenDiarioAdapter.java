@@ -4,10 +4,6 @@ import io.github.carlosthe19916.pe.models.CdrModel;
 import io.github.carlosthe19916.pe.models.EstadoSunatModel;
 import io.github.carlosthe19916.pe.models.ResumenDiarioModel;
 import io.github.carlosthe19916.pe.models.jpa.entities.ResumenDiarioEntity;
-import io.github.carlosthe19916.pe.models.CdrModel;
-import io.github.carlosthe19916.pe.models.EstadoSunatModel;
-import io.github.carlosthe19916.pe.models.ResumenDiarioModel;
-import io.github.carlosthe19916.pe.models.jpa.entities.ResumenDiarioEntity;
 
 import java.util.Date;
 

@@ -3,11 +3,8 @@ package io.github.carlosthe19916.core;
 import io.github.carlosthe19916.core.representations.idm.ComponentRepresentation;
 import io.github.carlosthe19916.core.representations.idm.ExtendedOrganizationRepresentation;
 import io.github.carlosthe19916.core.representations.idm.OrganizationRepresentation;
-import org.keycloak.representations.idm.KeysMetadataRepresentation;
-import io.github.carlosthe19916.core.representations.idm.ComponentRepresentation;
-import io.github.carlosthe19916.core.representations.idm.ExtendedOrganizationRepresentation;
-import io.github.carlosthe19916.core.representations.idm.OrganizationRepresentation;
 import io.github.carlosthe19916.core.representations.idm.OrganizationSearchQueryRepresentation;
+import org.keycloak.representations.idm.KeysMetadataRepresentation;
 
 import javax.validation.Valid;
 import javax.ws.rs.*;

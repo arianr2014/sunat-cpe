@@ -2,8 +2,6 @@ package io.github.carlosthe19916.pe.models.jpa;
 
 import io.github.carlosthe19916.pe.models.DatosVentaDetalleModel;
 import io.github.carlosthe19916.pe.models.jpa.entities.DatosVentaDetalleEntity;
-import io.github.carlosthe19916.pe.models.DatosVentaDetalleModel;
-import io.github.carlosthe19916.pe.models.jpa.entities.DatosVentaDetalleEntity;
 
 import java.math.BigDecimal;
 

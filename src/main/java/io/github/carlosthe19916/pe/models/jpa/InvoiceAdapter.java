@@ -1,8 +1,5 @@
 package io.github.carlosthe19916.pe.models.jpa;
 
-import io.github.carlosthe19916.pe.models.*;
-import io.github.carlosthe19916.pe.models.jpa.entities.InvoiceEntity;
-import io.github.carlosthe19916.pe.models.jpa.entities.ResumenDiarioEntity;
 import io.github.carlosthe19916.core.models.OrganizationModel;
 import io.github.carlosthe19916.core.models.jpa.JpaModel;
 import io.github.carlosthe19916.core.models.jpa.OrganizationAdapter;

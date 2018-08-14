@@ -6,11 +6,6 @@ import io.github.carlosthe19916.core.models.ComponentProvider;
 import io.github.carlosthe19916.core.models.ModelException;
 import io.github.carlosthe19916.core.models.OrganizationModel;
 import org.keycloak.common.util.MultivaluedHashMap;
-import io.github.carlosthe19916.core.keys.KeyProvider;
-import io.github.carlosthe19916.core.keys.component.ComponentModel;
-import io.github.carlosthe19916.core.models.ComponentProvider;
-import io.github.carlosthe19916.core.models.ModelException;
-import io.github.carlosthe19916.core.models.OrganizationModel;
 
 import javax.enterprise.context.ApplicationScoped;
 import javax.inject.Inject;

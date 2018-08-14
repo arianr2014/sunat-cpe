@@ -1,7 +1,6 @@
 package io.github.carlosthe19916.pe.models.jpa;
 
 import io.github.carlosthe19916.pe.models.OrganizacionInformacionAdicionalModel;
-import io.github.carlosthe19916.pe.models.OrganizacionInformacionAdicionalModel;
 import io.github.carlosthe19916.pe.models.jpa.entities.OrganizacionInformacionAdicionalEntity;
 
 import javax.persistence.EntityManager;

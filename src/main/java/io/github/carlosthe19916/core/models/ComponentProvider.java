@@ -1,7 +1,6 @@
 package io.github.carlosthe19916.core.models;
 
 import io.github.carlosthe19916.core.keys.component.ComponentModel;
-import io.github.carlosthe19916.core.keys.component.ComponentModel;
 
 import java.util.List;
 

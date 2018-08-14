@@ -2,7 +2,6 @@ package io.github.carlosthe19916.core.models.jpa;
 
 import io.github.carlosthe19916.core.models.FacetModel;
 import org.hibernate.search.query.facet.Facet;
-import io.github.carlosthe19916.core.models.FacetModel;
 
 public class DiscreteFacetAdapter implements FacetModel<String> {
 

@@ -1,7 +1,6 @@
 package io.github.carlosthe19916.pe.representations.idm;
 
 import io.github.carlosthe19916.core.representations.idm.OrganizationRepresentation;
-import io.github.carlosthe19916.core.representations.idm.OrganizationRepresentation;
 
 public class OrganizacionImportadaRepresentation extends OrganizationRepresentation {
 

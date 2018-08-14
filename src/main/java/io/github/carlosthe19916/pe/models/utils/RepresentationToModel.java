@@ -2,11 +2,7 @@ package io.github.carlosthe19916.pe.models.utils;
 
 import io.github.carlosthe19916.pe.models.*;
 import io.github.carlosthe19916.pe.representations.idm.*;
-import io.github.carlosthe19916.pe.models.*;
-import io.github.carlosthe19916.pe.representations.idm.*;
 
-import javax.validation.constraints.NotNull;
-import javax.validation.constraints.Size;
 import java.util.List;
 import java.util.stream.Collectors;
 

@@ -1,7 +1,6 @@
 package io.github.carlosthe19916.pe.models.jpa;
 
 import io.github.carlosthe19916.pe.models.ImpuestosModel;
-import io.github.carlosthe19916.pe.models.ImpuestosModel;
 import io.github.carlosthe19916.pe.models.jpa.entities.ImpuestosEntity;
 
 import java.math.BigDecimal;

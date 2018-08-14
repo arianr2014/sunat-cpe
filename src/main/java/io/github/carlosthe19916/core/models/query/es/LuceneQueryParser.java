@@ -1,13 +1,12 @@
 package io.github.carlosthe19916.core.models.query.es;
 
-import io.github.carlosthe19916.core.models.query.MultiMatchQuery;
+import io.github.carlosthe19916.core.models.query.*;
 import org.apache.lucene.search.Filter;
 import org.hibernate.search.query.dsl.BooleanJunction;
 import org.hibernate.search.query.dsl.QueryBuilder;
 import org.hibernate.search.query.dsl.RangeMatchingContext;
 import org.hibernate.search.query.dsl.RangeTerminationExcludable;
 import org.jboss.logging.Logger;
-import io.github.carlosthe19916.core.models.query.*;
 
 import java.util.Arrays;
 import java.util.function.Function;

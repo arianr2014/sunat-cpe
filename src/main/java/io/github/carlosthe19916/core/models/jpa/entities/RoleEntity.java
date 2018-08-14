@@ -2,7 +2,6 @@ package io.github.carlosthe19916.core.models.jpa.entities;
 
 
 import io.github.carlosthe19916.core.models.PermissionType;
-import io.github.carlosthe19916.core.models.PermissionType;
 
 import javax.persistence.*;
 import java.io.Serializable;

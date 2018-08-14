@@ -1,6 +1,5 @@
 package io.github.carlosthe19916.core.keys.component.utils;
 
-import io.github.carlosthe19916.core.representations.idm.ComponentRepresentation;
 import io.github.carlosthe19916.core.keys.component.ComponentFactory;
 import io.github.carlosthe19916.core.keys.component.ComponentModel;
 import io.github.carlosthe19916.core.keys.provider.ProviderConfigProperty;

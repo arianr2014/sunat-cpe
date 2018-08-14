@@ -2,8 +2,6 @@ package io.github.carlosthe19916.pe.models.jpa;
 
 import io.github.carlosthe19916.pe.models.OrganizacionInformacionSunatModel;
 import io.github.carlosthe19916.pe.models.jpa.entities.OrganizacionInformacionSunatEntity;
-import io.github.carlosthe19916.pe.models.OrganizacionInformacionSunatModel;
-import io.github.carlosthe19916.pe.models.jpa.entities.OrganizacionInformacionSunatEntity;
 
 import javax.persistence.EntityManager;
 

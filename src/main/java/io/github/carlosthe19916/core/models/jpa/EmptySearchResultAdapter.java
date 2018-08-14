@@ -2,8 +2,6 @@ package io.github.carlosthe19916.core.models.jpa;
 
 import io.github.carlosthe19916.core.models.FacetModel;
 import io.github.carlosthe19916.core.models.SearchResultModel;
-import io.github.carlosthe19916.core.models.FacetModel;
-import io.github.carlosthe19916.core.models.SearchResultModel;
 
 import java.util.Collections;
 import java.util.List;

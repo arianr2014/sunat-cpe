@@ -2,8 +2,6 @@ package io.github.carlosthe19916.pe.models.jpa;
 
 import io.github.carlosthe19916.pe.models.FechaModel;
 import io.github.carlosthe19916.pe.models.jpa.entities.FechaEntity;
-import io.github.carlosthe19916.pe.models.FechaModel;
-import io.github.carlosthe19916.pe.models.jpa.entities.FechaEntity;
 
 import java.util.Date;
 

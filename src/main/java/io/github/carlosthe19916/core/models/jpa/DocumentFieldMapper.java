@@ -1,7 +1,6 @@
 package io.github.carlosthe19916.core.models.jpa;
 
 import io.github.carlosthe19916.core.models.DocumentModel;
-import io.github.carlosthe19916.core.models.DocumentModel;
 
 import java.util.HashMap;
 import java.util.Map;

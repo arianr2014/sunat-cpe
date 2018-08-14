@@ -2,8 +2,6 @@ package io.github.carlosthe19916.pe.models.jpa;
 
 import io.github.carlosthe19916.pe.models.MonedaModel;
 import io.github.carlosthe19916.pe.models.jpa.entities.MonedaEntity;
-import io.github.carlosthe19916.pe.models.MonedaModel;
-import io.github.carlosthe19916.pe.models.jpa.entities.MonedaEntity;
 
 import java.math.BigDecimal;
 

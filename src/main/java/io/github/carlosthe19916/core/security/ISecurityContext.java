@@ -1,7 +1,6 @@
 package io.github.carlosthe19916.core.security;
 
 import io.github.carlosthe19916.core.models.PermissionType;
-import io.github.carlosthe19916.core.models.PermissionType;
 
 import java.util.Set;
 

@@ -1,11 +1,11 @@
 package io.github.carlosthe19916.core.models.jpa;
 
-import org.hibernate.Session;
 import io.github.carlosthe19916.core.models.OrganizationModel;
 import io.github.carlosthe19916.core.models.OrganizationProvider;
 import io.github.carlosthe19916.core.models.OrganizationType;
 import io.github.carlosthe19916.core.models.jpa.entities.OrganizationEntity;
 import io.github.carlosthe19916.core.models.utils.ModelUtils;
+import org.hibernate.Session;
 
 import javax.enterprise.context.ApplicationScoped;
 import javax.persistence.EntityManager;

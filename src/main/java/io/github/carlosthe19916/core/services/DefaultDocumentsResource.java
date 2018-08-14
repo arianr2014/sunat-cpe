@@ -4,30 +4,13 @@ import io.github.carlosthe19916.core.DocumentsResource;
 import io.github.carlosthe19916.core.representations.idm.DocumentQueryRepresentation;
 import io.github.carlosthe19916.core.representations.idm.DocumentRepresentation;
 import io.github.carlosthe19916.core.representations.idm.SearchResultRepresentation;
-import io.github.carlosthe19916.core.DocumentsResource;
-import io.github.carlosthe19916.core.models.*;
-import io.github.carlosthe19916.core.models.query.RangeQuery;
-import io.github.carlosthe19916.core.models.query.TermsQuery;
-import io.github.carlosthe19916.core.models.utils.ModelToRepresentation;
-import io.github.carlosthe19916.core.representations.idm.DocumentQueryRepresentation;
-import io.github.carlosthe19916.core.representations.idm.DocumentRepresentation;
-import io.github.carlosthe19916.core.representations.idm.FacetRepresentation;
-import io.github.carlosthe19916.core.representations.idm.SearchResultRepresentation;
 import io.github.carlosthe19916.core.security.ISecurityContext;
-import io.github.carlosthe19916.core.models.PermissionType;
 
 import javax.enterprise.context.ApplicationScoped;
 import javax.inject.Inject;
 import javax.servlet.http.HttpServletRequest;
 import javax.transaction.Transactional;
-import javax.ws.rs.ForbiddenException;
-import javax.ws.rs.NotFoundException;
 import javax.ws.rs.core.Response;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
-import java.util.Optional;
-import java.util.stream.Collectors;
 
 @Transactional
 @ApplicationScoped

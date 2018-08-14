@@ -1,5 +1,9 @@
 package io.github.carlosthe19916.pe.models.jpa;
 
+import io.github.carlosthe19916.core.models.ModelRuntimeException;
+import io.github.carlosthe19916.core.models.OrganizationModel;
+import io.github.carlosthe19916.core.models.jpa.OrganizationAdapter;
+import io.github.carlosthe19916.core.models.utils.ModelUtils;
 import io.github.carlosthe19916.pe.models.EstadoComprobantePago;
 import io.github.carlosthe19916.pe.models.InvoiceModel;
 import io.github.carlosthe19916.pe.models.NotaModel;
@@ -8,15 +12,6 @@ import io.github.carlosthe19916.pe.models.jpa.entities.CdrEntity;
 import io.github.carlosthe19916.pe.models.jpa.entities.DatosVentaEntity;
 import io.github.carlosthe19916.pe.models.jpa.entities.EstadoSunatEntity;
 import io.github.carlosthe19916.pe.models.jpa.entities.NotaEntity;
-import io.github.carlosthe19916.core.models.ModelRuntimeException;
-import io.github.carlosthe19916.core.models.OrganizationModel;
-import io.github.carlosthe19916.core.models.jpa.OrganizationAdapter;
-import io.github.carlosthe19916.core.models.utils.ModelUtils;
-import io.github.carlosthe19916.pe.models.*;
-import io.github.carlosthe19916.pe.models.jpa.entities.CdrEntity;
-import io.github.carlosthe19916.pe.models.jpa.entities.DatosVentaEntity;
-import io.github.carlosthe19916.pe.models.jpa.entities.NotaEntity;
-import io.github.carlosthe19916.pe.models.jpa.entities.EstadoSunatEntity;
 import io.github.carlosthe19916.pe.models.types.TipoNota;
 import io.github.carlosthe19916.pe.models.utils.SunatUtils;
 import org.wildfly.swarm.spi.runtime.annotations.ConfigurationValue;

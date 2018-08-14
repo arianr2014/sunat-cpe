@@ -1,7 +1,5 @@
 package io.github.carlosthe19916.pe.models.jpa;
 
-import io.github.carlosthe19916.pe.models.OrganizacionInformacionAdicionalModel;
-import io.github.carlosthe19916.pe.models.OrganizationInformacionAdicionalProvider;
 import io.github.carlosthe19916.core.models.OrganizationModel;
 import io.github.carlosthe19916.core.models.jpa.entities.OrganizationEntity;
 import io.github.carlosthe19916.pe.models.OrganizacionInformacionAdicionalModel;

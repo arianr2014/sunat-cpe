@@ -1,22 +1,17 @@
 package io.github.carlosthe19916.pe.managers;
 
-import io.github.carlosthe19916.pe.models.*;
-import io.github.carlosthe19916.pe.sunat.SendSunatException;
-import io.github.carlosthe19916.pe.sunat.SunatSenderProvider;
-import jodd.io.ZipBuilder;
-import org.jboss.logging.Logger;
-import io.github.carlosthe19916.core.files.FileException;
 import io.github.carlosthe19916.core.files.FileModel;
 import io.github.carlosthe19916.core.files.FileProvider;
 import io.github.carlosthe19916.core.models.ModelRuntimeException;
 import io.github.carlosthe19916.core.models.OrganizationModel;
-import io.github.carlosthe19916.core.models.utils.ModelUtils;
 import io.github.carlosthe19916.core.utils.files.UncompressFileProvider;
 import io.github.carlosthe19916.core.utils.files.UncompressFileProviderFactory;
 import io.github.carlosthe19916.pe.models.*;
 import io.github.carlosthe19916.pe.models.utils.JaxbUtils;
 import io.github.carlosthe19916.pe.sunat.SendSunatException;
 import io.github.carlosthe19916.pe.sunat.SunatSenderProvider;
+import jodd.io.ZipBuilder;
+import org.jboss.logging.Logger;
 import org.w3c.dom.Document;
 
 import javax.enterprise.context.ApplicationScoped;
@@ -226,9 +221,12 @@ public class SunatManager {
         UncompressFileProviderFactory factory = UncompressFileProviderFactory.getInstance();
         UncompressFileProvider provider = factory.getProvider("zip").orElseThrow(() -> new Exception("No provider for zip file"));
         Map<String, byte[]> entries = provider.uncompress(sunatResponse);
+
+        Document document;
         for (Map.Entry<String, byte[]> entry : entries.entrySet()) {
             byte[] bytes = entry.getValue();
-            return JaxbUtils.toDocument(bytes);
+            document = JaxbUtils.toDocument(bytes);
+            break;
         }
         throw new Exception("No se encontró un cdr que leer");
     }

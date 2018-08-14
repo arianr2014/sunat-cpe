@@ -2,8 +2,6 @@ package io.github.carlosthe19916.pe.models.jpa;
 
 import io.github.carlosthe19916.pe.models.TotalInformacionAdicionalModel;
 import io.github.carlosthe19916.pe.models.jpa.entities.TotalInformacionAdicionalEntity;
-import io.github.carlosthe19916.pe.models.TotalInformacionAdicionalModel;
-import io.github.carlosthe19916.pe.models.jpa.entities.TotalInformacionAdicionalEntity;
 
 import java.math.BigDecimal;
 

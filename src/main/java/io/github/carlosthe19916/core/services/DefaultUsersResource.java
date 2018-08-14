@@ -3,10 +3,6 @@ package io.github.carlosthe19916.core.services;
 import io.github.carlosthe19916.core.UsersResource;
 import io.github.carlosthe19916.core.models.UserModel;
 import io.github.carlosthe19916.core.models.UserProvider;
-import io.github.carlosthe19916.core.representations.idm.UserRepresentation;
-import io.github.carlosthe19916.core.UsersResource;
-import io.github.carlosthe19916.core.models.UserModel;
-import io.github.carlosthe19916.core.models.UserProvider;
 import io.github.carlosthe19916.core.models.utils.ModelToRepresentation;
 import io.github.carlosthe19916.core.representations.idm.UserRepresentation;
 

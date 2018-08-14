@@ -3,7 +3,6 @@ package io.github.carlosthe19916.core.models.jpa.entities;
 import io.github.carlosthe19916.core.models.OrganizationType;
 import org.hibernate.annotations.NaturalId;
 import org.hibernate.annotations.Type;
-import io.github.carlosthe19916.core.models.OrganizationType;
 
 import javax.persistence.*;
 import javax.validation.constraints.NotNull;

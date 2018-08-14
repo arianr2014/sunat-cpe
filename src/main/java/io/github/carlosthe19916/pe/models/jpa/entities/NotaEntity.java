@@ -1,9 +1,8 @@
 package io.github.carlosthe19916.pe.models.jpa.entities;
 
-import io.github.carlosthe19916.pe.models.EstadoComprobantePago;
-import org.hibernate.annotations.Type;
 import io.github.carlosthe19916.core.models.jpa.entities.OrganizationEntity;
 import io.github.carlosthe19916.pe.models.EstadoComprobantePago;
+import org.hibernate.annotations.Type;
 
 import javax.persistence.*;
 import javax.validation.constraints.NotNull;

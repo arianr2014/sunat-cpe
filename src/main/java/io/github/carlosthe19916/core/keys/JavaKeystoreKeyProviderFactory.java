@@ -1,6 +1,5 @@
 package io.github.carlosthe19916.core.keys;
 
-import org.jboss.logging.Logger;
 import io.github.carlosthe19916.core.keys.component.ComponentModel;
 import io.github.carlosthe19916.core.keys.component.ComponentValidationException;
 import io.github.carlosthe19916.core.keys.provider.ConfigurationValidationHelper;
@@ -9,6 +8,7 @@ import io.github.carlosthe19916.core.keys.qualifiers.ComponentProviderType;
 import io.github.carlosthe19916.core.keys.qualifiers.RsaKeyProviderType;
 import io.github.carlosthe19916.core.keys.qualifiers.RsaKeyType;
 import io.github.carlosthe19916.core.models.OrganizationModel;
+import org.jboss.logging.Logger;
 
 import javax.enterprise.context.ApplicationScoped;
 import java.util.List;

@@ -1,6 +1,5 @@
 package io.github.carlosthe19916.pe.models.jpa;
 
-import io.github.carlosthe19916.pe.models.*;
 import io.github.carlosthe19916.core.models.jpa.JpaModel;
 import io.github.carlosthe19916.pe.models.*;
 import io.github.carlosthe19916.pe.models.jpa.entities.BajaEntity;

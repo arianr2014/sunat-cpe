@@ -4,8 +4,6 @@ import io.github.carlosthe19916.core.models.FacetModel;
 import io.github.carlosthe19916.core.models.RangeModel;
 import org.hibernate.search.query.facet.Facet;
 import org.hibernate.search.query.facet.RangeFacet;
-import io.github.carlosthe19916.core.models.FacetModel;
-import io.github.carlosthe19916.core.models.RangeModel;
 
 import java.util.Date;
 

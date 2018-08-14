@@ -1,11 +1,10 @@
 package io.github.carlosthe19916.core.files.jpa;
 
-import io.github.carlosthe19916.core.files.jpa.entities.FileEntity;
 import io.github.carlosthe19916.core.files.FileException;
 import io.github.carlosthe19916.core.files.FileModel;
+import io.github.carlosthe19916.core.files.FileProvider;
 import io.github.carlosthe19916.core.files.FileProviderVendor;
 import io.github.carlosthe19916.core.files.jpa.entities.FileEntity;
-import io.github.carlosthe19916.core.files.FileProvider;
 
 import javax.enterprise.context.ApplicationScoped;
 import javax.persistence.EntityManager;

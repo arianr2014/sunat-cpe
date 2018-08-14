@@ -4,10 +4,6 @@ import io.github.carlosthe19916.pe.SunatPEResource;
 import io.github.carlosthe19916.pe.models.types.TipoAfectacionIgv;
 import io.github.carlosthe19916.pe.models.types.TipoDocumentoEntidad;
 import io.github.carlosthe19916.pe.models.types.TipoInvoice;
-import io.github.carlosthe19916.pe.SunatPEResource;
-import io.github.carlosthe19916.pe.models.types.TipoAfectacionIgv;
-import io.github.carlosthe19916.pe.models.types.TipoDocumentoEntidad;
-import io.github.carlosthe19916.pe.models.types.TipoInvoice;
 import io.github.carlosthe19916.pe.representations.idm.SUNATGenericTypeRepresentation;
 
 import javax.enterprise.context.ApplicationScoped;

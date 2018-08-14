@@ -1,8 +1,8 @@
 package io.github.carlosthe19916.core.models.jpa;
 
+import io.github.carlosthe19916.core.models.PermissionType;
 import io.github.carlosthe19916.core.models.RoleModel;
 import io.github.carlosthe19916.core.models.jpa.entities.RoleEntity;
-import io.github.carlosthe19916.core.models.PermissionType;
 
 import javax.persistence.EntityManager;
 import java.util.HashSet;

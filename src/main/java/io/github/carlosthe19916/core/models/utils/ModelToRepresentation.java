@@ -9,14 +9,6 @@ import io.github.carlosthe19916.core.models.OrganizationModel;
 import io.github.carlosthe19916.core.models.UserModel;
 import io.github.carlosthe19916.core.representations.idm.*;
 import org.keycloak.common.util.MultivaluedHashMap;
-import io.github.carlosthe19916.core.keys.component.ComponentModel;
-import io.github.carlosthe19916.core.keys.component.utils.ComponentUtil;
-import io.github.carlosthe19916.core.keys.provider.ProviderConfigProperty;
-import io.github.carlosthe19916.core.models.DocumentModel;
-import io.github.carlosthe19916.core.models.FacetModel;
-import io.github.carlosthe19916.core.models.OrganizationModel;
-import io.github.carlosthe19916.core.models.UserModel;
-import io.github.carlosthe19916.core.representations.idm.*;
 
 import java.util.HashMap;
 import java.util.LinkedList;

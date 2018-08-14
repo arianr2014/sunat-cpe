@@ -1,7 +1,6 @@
 package io.github.carlosthe19916.core.services.resolvers;
 
 import io.github.carlosthe19916.core.representations.idm.ConstraintErrorRepresentation;
-import io.github.carlosthe19916.core.representations.idm.ConstraintErrorRepresentation;
 
 import javax.validation.ConstraintViolation;
 import javax.validation.ConstraintViolationException;

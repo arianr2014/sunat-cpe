@@ -2,9 +2,6 @@ package io.github.carlosthe19916.pe.models.jpa;
 
 import io.github.carlosthe19916.pe.models.EstadoSunatModel;
 import io.github.carlosthe19916.pe.models.jpa.entities.EstadoSunatEntity;
-import io.github.carlosthe19916.pe.models.Labels;
-import io.github.carlosthe19916.pe.models.EstadoSunatModel;
-import io.github.carlosthe19916.pe.models.jpa.entities.EstadoSunatEntity;
 
 public class EstadoSunatAdapter implements EstadoSunatModel {
 

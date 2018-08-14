@@ -7,12 +7,6 @@ import io.github.carlosthe19916.core.models.OrganizationModel;
 import io.github.carlosthe19916.core.representations.idm.ComponentRepresentation;
 import io.github.carlosthe19916.core.representations.idm.OrganizationRepresentation;
 import org.keycloak.common.util.MultivaluedHashMap;
-import io.github.carlosthe19916.core.keys.component.ComponentModel;
-import io.github.carlosthe19916.core.keys.component.utils.ComponentUtil;
-import io.github.carlosthe19916.core.keys.provider.ProviderConfigProperty;
-import io.github.carlosthe19916.core.models.OrganizationModel;
-import io.github.carlosthe19916.core.representations.idm.ComponentRepresentation;
-import io.github.carlosthe19916.core.representations.idm.OrganizationRepresentation;
 
 import java.util.*;
 

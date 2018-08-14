@@ -3,9 +3,6 @@ package io.github.carlosthe19916.core.models.jpa;
 import io.github.carlosthe19916.core.models.UserModel;
 import io.github.carlosthe19916.core.models.UserProvider;
 import io.github.carlosthe19916.core.models.jpa.entities.UserEntity;
-import io.github.carlosthe19916.core.models.UserModel;
-import io.github.carlosthe19916.core.models.UserProvider;
-import io.github.carlosthe19916.core.models.jpa.entities.UserEntity;
 import io.github.carlosthe19916.core.models.utils.ModelUtils;
 
 import javax.enterprise.context.ApplicationScoped;

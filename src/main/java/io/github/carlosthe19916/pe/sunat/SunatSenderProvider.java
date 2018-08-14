@@ -1,9 +1,7 @@
 package io.github.carlosthe19916.pe.sunat;
 
 import io.github.carlosthe19916.pe.models.OrganizacionInformacionAdicionalModel;
-import io.github.carlosthe19916.pe.models.OrganizacionInformacionAdicionalModel;
 import io.github.carlosthe19916.pe.models.OrganizacionInformacionSunatModel;
-import io.github.carlosthe19916.pe.sunat.SendSunatException;
 import pe.gob.sunat.service.StatusResponse;
 
 public interface SunatSenderProvider {

@@ -2,8 +2,6 @@ package io.github.carlosthe19916.pe.models.jpa;
 
 import io.github.carlosthe19916.pe.models.ClienteModel;
 import io.github.carlosthe19916.pe.models.jpa.entities.ClienteEntity;
-import io.github.carlosthe19916.pe.models.ClienteModel;
-import io.github.carlosthe19916.pe.models.jpa.entities.ClienteEntity;
 
 public class ClienteAdapter implements ClienteModel {
 

@@ -1,5 +1,6 @@
 package io.github.carlosthe19916.pe.models.utils;
 
+import io.github.carlosthe19916.core.models.OrganizationModel;
 import io.github.carlosthe19916.pe.models.*;
 import io.github.carlosthe19916.pe.models.types.*;
 import oasis.names.specification.ubl.schema.xsd.commonaggregatecomponents_2.*;
@@ -9,17 +10,13 @@ import oasis.names.specification.ubl.schema.xsd.commonextensioncomponents_2.UBLE
 import oasis.names.specification.ubl.schema.xsd.creditnote_2.CreditNoteType;
 import oasis.names.specification.ubl.schema.xsd.debitnote_2.DebitNoteType;
 import oasis.names.specification.ubl.schema.xsd.invoice_2.InvoiceType;
-import io.github.carlosthe19916.core.models.OrganizationModel;
-import io.github.carlosthe19916.pe.models.*;
-import io.github.carlosthe19916.pe.models.types.*;
 import org.w3c.dom.Element;
-import sunat.names.specification.ubl.peru.schema.xsd.retention_1.RetentionFactory;
 import sunat.names.specification.ubl.peru.schema.xsd.retention_1.RetentionType;
-import sunat.names.specification.ubl.peru.schema.xsd.sunataggregatecomponents_1.*;
+import sunat.names.specification.ubl.peru.schema.xsd.sunataggregatecomponents_1.AdditionalInformationType;
+import sunat.names.specification.ubl.peru.schema.xsd.sunataggregatecomponents_1.AdditionalMonetaryTotalType;
 import sunat.names.specification.ubl.peru.schema.xsd.sunataggregatecomponents_1.ObjectFactory;
 import sunat.names.specification.ubl.peru.schema.xsd.voideddocuments_1.VoidedDocumentsType;
 
-import javax.persistence.Entity;
 import javax.xml.bind.JAXBElement;
 import javax.xml.bind.JAXBException;
 import javax.xml.datatype.DatatypeConfigurationException;
@@ -27,7 +24,10 @@ import javax.xml.datatype.DatatypeFactory;
 import javax.xml.datatype.XMLGregorianCalendar;
 import java.math.BigDecimal;
 import java.text.SimpleDateFormat;
-import java.util.*;
+import java.util.ArrayList;
+import java.util.Date;
+import java.util.List;
+import java.util.TimeZone;
 
 public class ModelToType {
 

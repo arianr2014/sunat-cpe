@@ -5,11 +5,6 @@ import io.github.carlosthe19916.core.models.RoleMembershipModel;
 import io.github.carlosthe19916.core.models.RoleModel;
 import io.github.carlosthe19916.core.models.UserModel;
 import io.github.carlosthe19916.core.models.jpa.entities.RoleMembershipEntity;
-import io.github.carlosthe19916.core.models.OrganizationModel;
-import io.github.carlosthe19916.core.models.RoleMembershipModel;
-import io.github.carlosthe19916.core.models.RoleModel;
-import io.github.carlosthe19916.core.models.UserModel;
-import io.github.carlosthe19916.core.models.jpa.entities.RoleMembershipEntity;
 
 import javax.persistence.EntityManager;
 

@@ -3,9 +3,6 @@ package io.github.carlosthe19916.core.security;
 import io.github.carlosthe19916.core.models.PermissionType;
 import io.github.carlosthe19916.core.models.RoleMembershipModel;
 import io.github.carlosthe19916.core.models.RoleModel;
-import io.github.carlosthe19916.core.models.PermissionType;
-import io.github.carlosthe19916.core.models.RoleMembershipModel;
-import io.github.carlosthe19916.core.models.RoleModel;
 
 import java.io.Serializable;
 import java.util.*;

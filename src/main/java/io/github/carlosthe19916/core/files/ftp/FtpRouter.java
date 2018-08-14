@@ -2,12 +2,9 @@ package io.github.carlosthe19916.core.files.ftp;
 
 import org.apache.camel.builder.RouteBuilder;
 import org.apache.camel.cdi.ContextName;
-import org.apache.camel.component.properties.PropertiesComponent;
 import org.jboss.logging.Logger;
 import org.wildfly.swarm.spi.runtime.annotations.ConfigurationValue;
-import org.wildfly.swarm.spi.runtime.annotations.Post;
 
-import javax.annotation.PostConstruct;
 import javax.enterprise.context.ApplicationScoped;
 import javax.inject.Inject;
 import java.text.MessageFormat;

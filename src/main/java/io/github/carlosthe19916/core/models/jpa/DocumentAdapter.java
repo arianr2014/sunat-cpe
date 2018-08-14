@@ -2,8 +2,6 @@ package io.github.carlosthe19916.core.models.jpa;
 
 import io.github.carlosthe19916.core.models.DocumentModel;
 import io.github.carlosthe19916.core.models.jpa.entities.DocumentEntity;
-import io.github.carlosthe19916.core.models.DocumentModel;
-import io.github.carlosthe19916.core.models.jpa.entities.DocumentEntity;
 
 import javax.persistence.EntityManager;
 import java.util.Date;
