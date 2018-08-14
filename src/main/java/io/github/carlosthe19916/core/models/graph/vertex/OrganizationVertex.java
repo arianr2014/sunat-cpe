@@ -7,7 +7,7 @@ import org.apache.tinkerpop.gremlin.structure.Direction;
 import java.util.List;
 
 @TypeValue(OrganizationVertex.TYPE)
-public interface OrganizationVertex {
+public interface OrganizationVertex extends SunatVertexFrame{
 
     String TYPE = "OrganizationVertex";
     String TYPE_PREFIX = TYPE + "-";

@@ -3,7 +3,7 @@ package io.github.carlosthe19916.core.models.graph.vertex;
 import com.syncleus.ferma.annotations.Property;
 
 @TypeValue(LinkVertex.TYPE)
-public interface LinkVertex {
+public interface LinkVertex extends SunatVertexFrame {
 
     String TYPE = "LinkVertex";
     String PROPERTY_LINK = "href";
