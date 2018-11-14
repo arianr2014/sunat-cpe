@@ -27,17 +27,10 @@ public class ServerBootstrap {
     @Inject
     private OrganizationProvider organizationProvider;
 
-    private long serverStartupTimestamp;
-
     @PostConstruct
     private void init() {
         logger.info("Server Bootstrap...");
-        serverStartupTimestamp = System.currentTimeMillis();
         bootstrap();
-    }
-
-    public long getServerStartupTimestamp() {
-        return serverStartupTimestamp;
     }
 
     private void bootstrap() {
