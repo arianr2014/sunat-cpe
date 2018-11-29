@@ -1,20 +1,29 @@
 package io.github.carlosthe19916.core.files;
 
-public class FileModel {
+import java.io.File;
+import java.io.InputStream;
 
-    private final String fileName;
-    private final byte[] bytes;
+/**
+ * Interface that describe a file persisted in one of the available storage supported.
+ */
+public interface FileModel {
 
-    public FileModel(String fileName, byte[] bytes) {
-        this.fileName = fileName;
-        this.bytes = bytes;
-    }
+    /**
+     * @return the filename
+     */
+    String getFilename();
 
-    public String getFileName() {
-        return fileName;
-    }
+    /**
+     * Returns the file in bytes. Be careful with this method because it could consume too much memory.
+     * In case of large files use getFileStream()
+     *
+     * @return the file expressed in bytes.
+     */
+    byte[] getFileAsBytes();
 
-    public byte[] getBytes() {
-        return bytes;
-    }
+    /**
+     * @return a stream of the file.
+     */
+    InputStream getFileStream();
+
 }

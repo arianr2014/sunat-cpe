@@ -1,5 +1,6 @@
 package io.github.carlosthe19916.core.files.filesystem;
 
+import io.github.carlosthe19916.ConfigConstants;
 import io.github.carlosthe19916.core.files.FileException;
 import io.github.carlosthe19916.core.files.FileModel;
 import io.github.carlosthe19916.core.files.FileProvider;
@@ -11,6 +12,7 @@ import org.wildfly.swarm.spi.runtime.annotations.ConfigurationValue;
 
 import javax.enterprise.context.ApplicationScoped;
 import javax.inject.Inject;
+import java.io.File;
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
@@ -23,19 +25,23 @@ public class FileSystemFileProvider implements FileProvider {
 
     private static final Logger logger = Logger.getLogger(FileSystemFileProvider.class);
 
-    private static final String DEFAULT_FOLDER = "openfact-files";
-
     @Inject
     @ContextName("cdi-context")
     private CamelContext camelContext;
 
     @Inject
-    @ConfigurationValue("openfact.files.filesystem.folder")
+    @ConfigurationValue(ConfigConstants.FILESYSTEM_PROVIDER_FOLDER_NAME)
     private Optional<String> folder;
 
     @Override
+    public FileModel addFile(File file) throws FileException {
+        return null;
+    }
+
+    @Override
     public FileModel addFile(String fileName, byte[] bytes) throws FileException {
-        Path path = Paths.get(folder.orElse(DEFAULT_FOLDER), fileName);
+        String folderName = folder.orElse(ConfigConstants.DEFAULT_FILESYSTEM_FOLDER);
+        Path path = Paths.get(folderName, fileName);
         if (Files.exists(path)) {
             throw new FileException("File already exists");
         }
@@ -54,12 +60,13 @@ public class FileSystemFileProvider implements FileProvider {
             throw new FileException(e);
         }
 
-        return new FileModel(path.toString(), bytes);
+        return new FileAdapter(path.toFile());
     }
 
     @Override
-    public boolean removeFile(String id) {
-        Path path = Paths.get(folder.orElse(DEFAULT_FOLDER), id);
+    public boolean removeFile(String fileName) {
+        String folderName = folder.orElse(ConfigConstants.DEFAULT_FILESYSTEM_FOLDER);
+        Path path = Paths.get(folderName, fileName);
         try {
             Files.delete(path);
             return true;
@@ -67,6 +74,11 @@ public class FileSystemFileProvider implements FileProvider {
             logger.errorf("Could not delete the file %s", path.toString());
             return false;
         }
+    }
+
+    @Override
+    public boolean removeFile(FileModel file) {
+        return false;
     }
 
 }
