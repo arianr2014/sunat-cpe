@@ -1,5 +1,6 @@
 package io.github.carlosthe19916.core.files.filesystem;
 
+import io.github.carlosthe19916.core.files.FileAttachEntity;
 import io.github.carlosthe19916.core.files.FileModel;
 import org.apache.commons.io.IOUtils;
 
@@ -7,15 +8,22 @@ import java.io.*;
 
 public class FileAdapter implements FileModel {
 
+    private FileAttachEntity entity;
     private File file;
 
-    public FileAdapter(File file) {
+    public FileAdapter(FileAttachEntity entity, File file) {
+        this.entity = entity;
         this.file = file;
     }
 
     @Override
+    public String getId() {
+        return entity.getId();
+    }
+
+    @Override
     public String getFilename() {
-        return file.getName();
+        return entity.getFileName();
     }
 
     @Override

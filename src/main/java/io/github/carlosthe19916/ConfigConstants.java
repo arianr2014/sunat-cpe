@@ -16,4 +16,9 @@ public abstract class ConfigConstants {
      */
     public static final String DEFAULT_FILESYSTEM_FOLDER = "margaret-files";
 
+    /**
+     * File sufix
+     */
+    public static final String FILE_SUFIX = ".margaret";
+
 }

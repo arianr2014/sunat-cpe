@@ -9,6 +9,11 @@ import java.io.InputStream;
 public interface FileModel {
 
     /**
+     * Unique id
+     */
+    String getId();
+
+    /**
      * @return the filename
      */
     String getFilename();

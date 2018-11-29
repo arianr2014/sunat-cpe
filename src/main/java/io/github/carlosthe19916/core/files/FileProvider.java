@@ -8,6 +8,12 @@ import java.io.File;
 public interface FileProvider {
 
     /**
+     * Search a file by its id
+     * @return File
+     */
+    FileModel getFileById(String fileId);
+
+    /**
      * Persist the file.
      *
      * @param file to be persisted.
@@ -23,9 +29,9 @@ public interface FileProvider {
     FileModel addFile(String filename, byte[] bytes) throws FileException;
 
     /**
-     * @param fileName of file
+     * @param fileId of file
      */
-    boolean removeFile(String fileName);
+    boolean removeFile(String fileId);
 
     /**
      * @param file to be removed

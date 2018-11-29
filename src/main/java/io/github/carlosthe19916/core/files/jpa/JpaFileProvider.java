@@ -36,9 +36,9 @@ public class JpaFileProvider implements FileProvider {
 
     @Transactional(Transactional.TxType.REQUIRES_NEW)
     @Override
-    public boolean removeFile(String id) {
+    public boolean removeFile(String fileId) {
         try {
-            FileEntity fileEntity = em.find(FileEntity.class, id);
+            FileEntity fileEntity = em.find(FileEntity.class, fileId);
             if (fileEntity == null) return false;
             em.remove(fileEntity);
         } catch (Throwable e) {
